@@ -1,10 +1,228 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Meine Webseite</title>
+	<title>Willkommen im Modul 109</title>
+	<style>
+		body {
+			background-color: #F2F2F2;
+			font-family: Arial, sans-serif;
+			text-align: center;
+			padding: 20px;
+		}
+
+		h1 {
+			color: #FF6600;
+			font-size: 24px;
+			margin-bottom: 10px;
+		}
+
+		t1 {
+			color: #FF6600;
+			font-size: 42px;
+			margin-bottom: 10px;
+		}		
+
+		p {
+			color: #444444;
+			font-size: 18px;
+			margin-bottom: 20px;
+		}
+
+		.container {
+			background-color: #FFFFFF;
+			padding: 20px;
+			margin: 20px auto;
+			max-width: 800px;
+			border: 2px solid #FF6600;
+		}
+		
+
+
+		.container:nth-child(odd) {
+			background-color: #F2F2F2;
+		}
+
+
+		.container2 {
+			background-color: #FFFFFF;
+			padding: 20px;
+			margin: 20px auto;
+			max-width: 800px;
+			border: 2px solid #4CAF50;
+		}
+
+		h2 {
+			color: #4CAF50;
+			font-size: 24px;
+			margin-bottom: 10px;
+		}
+
+		t2 {
+			color: #4CAF50;
+			font-size: 42px;
+			margin-bottom: 10px;
+		}
+
+		.container3 {
+			background-color: #FFFFFF;
+			padding: 20px;
+			margin: 20px auto;
+			max-width: 800px;
+			border: 2px solid #1E90FF;
+		}
+
+		h3 {
+			color: #1E90FF;
+			font-size: 24px;
+			margin-bottom: 10px;
+		}
+
+		t3 {
+			color: #1E90FF;
+			font-size: 42px;
+			margin-bottom: 10px;
+		}
+		
+		.container4 {
+			background-color: #FFFFFF;
+			padding: 20px;
+			margin: 20px auto;
+			max-width: 800px;
+			border: 2px solid #FF4136;
+		}
+
+		h4 {
+			color: #FF4136;
+			font-size: 24px;
+			margin-bottom: 10px;
+		}
+
+		t4 {
+			color: #FF4136;
+			font-size: 42px;
+			margin-bottom: 10px;
+		}
+
+
+		img {
+			width: 200px;
+			margin-top: 20px;
+		}
+	</style>
 </head>
 <body>
-	<p>Hallo Welt!</p>
+	<div class="conainer">
+		<t1>Auftrag 3.1: Grundlagen Container-Technologie<t1>
+	</div>
+
+	<div class="container">
+		<h1>Was ist Container-Technologie oder Container-Virtualisierung?</h1>
+		<p>Container-Technologie ist eine Methode der Betriebssystemvirtualisierung, bei der Anwendungen in Containern ausgeführt werden, die von einem Host-Betriebssystem geteilt werden.</p>
+	</div>
+
+	<div class="container">
+		<h1>Was sind die Vor- und Nachteile der Container-Technologie zu virtuellen Servern (VM)?</h1>
+		<p>Vorteile der Container-Technologie im Vergleich zu VMs sind geringere Größe, schnellere Bereitstellungszeit, geringere Betriebskosten, höhere Portabilität und mehr Skalierbarkeit. VMs bieten stärkere Isolation und Sicherheit, da sie ein eigenes Betriebssystem haben.</p>
+	</div>
+
+	<div class="container">
+		<h1>Welche Produkte kennen Sie im Zusammenhang mit virtuellen Servern und Container?</h1>
+		<p>Produkte im Zusammenhang mit virtuellen Servern sind VMware, Hyper-V, KVM und VirtualBox. Produkte im Zusammenhang mit Containern sind Docker, Kubernetes, OpenShift und Mesos.</p>
+	</div>
+
+	<div class="container">
+		<h1>Wie unterscheiden sich die Technologien VM und Container in Bezug auf Bereitstellung, Speicherplatz, Portabilität, Effizienz und Betriebssystem (Kernel)?</h1>
+		<p>Container und VMs unterscheiden sich in Bereitstellung, Speicherplatz, Portabilität, Effizienz und Betriebssystem. Container sind schneller und effizienter, benötigen weniger Speicherplatz und sind portabler. VMs bieten stärkere Isolation und Sicherheit und haben ein eigenes Betriebssystem.</p>
+	</div>
+
+	<div class="container">
+		<h1>Können virtuelle Server immer durch Container ersetzt werden?</h1>
+		<p>Es ist nicht immer möglich, virtuelle Server
+	</div>
+
+	<div class="container">
+		<h1>Was ist der Unterschied zwischen Self-Managed und Fully Managed? Notieren Sie sich die wichtigsten Merkmale und diskutieren Sie die Ergebnisse in der Gruppe.</h1>
+		<p>Self-Managed bezieht sich auf die Verwaltung der Infrastruktur durch den Benutzer, Fully Managed bedeutet, dass die Infrastruktur vollständig von einem Drittanbieter verwaltet wird.</p>
+	</div>
+
+
+	<div class="conainer2">
+		<t2>Auftrag 4.1: Container-Orchestrierung<t2>
+	</div>
+
+	<div class="container2">
+		<h2>Warum braucht man Container-Orchestrierung?</h2>
+		<p>Container-Orchestrierung ist notwendig, um die Verwaltung, Koordination und Automatisierung von Containern zu erleichtern. Mit Container-Orchestrierung können Entwickler und Betreiber eine große Anzahl von Containern in einer verteilten Umgebung effektiv verwalten.</p>
+	</div>
+
+	<div class="container2">
+		<h2>Wie funktioniert Container-Orchestrierung?</h2>
+		<p>Container-Orchestrierung koordiniert und verwaltet Container in einer verteilten Umgebung. Es stellt sicher, dass Container auf den richtigen Hosts ausgeführt werden und dass sie miteinander kommunizieren können. Es kann auch Skalierung, Lastenausgleich, Service-Discovery und automatisierte Upgrades von Containern bereitstellen.</p>
+	</div>
+
+	<div class="container2">
+		<h2>Welche Container-Orchestrierung Technologien kennen Sie?</h2>
+		<p>Einige gängige Container-Orchestrierungstechnologien sind Kubernetes, Docker Swarm, Apache Mesos und Nomad. Es gibt auch Cloud-basierte Orchestrierungsdienste wie AWS ECS und Google Kubernetes Engine.</p>
+	</div>
+
+	<div class="container2">
+		<h2>Was versteht man unter "Scaling Containers"?</h2>
+		<p>"Scaling Containers" bezieht sich auf die Möglichkeit, die Anzahl der Container zu erhöhen oder zu verringern, um die Anforderungen an eine Anwendung zu erfüllen. Dies kann manuell oder automatisch erfolgen und ermöglicht es, die Ressourcenauslastung zu optimieren und die Anwendungseffizienz zu erhöhen.</p>
+	</div>
+
+	<div class="container2">
+		<h2>Was gibt es für Deployment Strategien?</h2>
+		<p>Es gibt mehrere Strategien für das Deployment von Containern, darunter Rolling Update, Blue-Green Deployment, Canary Deployment und A/B Testing. Jede Strategie hat ihre eigenen Vorteile und Einschränkungen und sollte basierend auf den Anforderungen der Anwendung ausgewählt werden.</p>
+	</div>
+
+
+	<div class="conainer3">
+		<t3>IX.Dispoability<t3>
+	</div>
+
+	<div class="container3">
+		<h3>Um was geht es bei diesem Faktor?</h3>
+		<p>Dieser Faktor (IX. Disposability) bezieht sich darauf, wie zwölf Faktoren konforme Systeme mit dem Starten und Beenden von Prozessen umgehen sollten, um eine robuste und elastische Skalierung zu ermöglichen.</p>	
+	</div>
+
+	<div class="container3">
+		<h3>Welches Problem löst dieser Faktor?</h3>
+		<p>Dieser Faktor löst das Problem der Skalierung und der Robustheit von zwölf Faktoren konformen Systemen, indem er sicherstellt, dass Prozesse schnell und nahtlos gestartet und beendet werden können. Durch schnelles Starten und Beenden von Prozessen können Systeme schnell auf Änderungen in der Auslastung oder in der Konfiguration reagieren, was die Flexibilität und Robustheit des Systems verbessert.</p>
+	</div>
+
+	<div class="container3">
+		<h3>Wie wird dieser Faktor in der realen Welt umgesetzt?</h3>
+		<p>In der realen Welt wird dieser Faktor dadurch umgesetzt, dass Prozesse in einem zwölf Faktoren konformen System schnell gestartet und beendet werden können. Prozesse sollten darauf abzielen, die Startzeit zu minimieren, um eine schnellere Reaktionszeit zu ermöglichen. Ein Web-Prozess wird beispielsweise ordnungsgemäß beendet, indem er aufhört, auf dem Service-Port zu lauschen, um alle aktuellen Anfragen zu beenden, bevor er ausgeführt wird. Ein Worker-Prozess gibt das aktuelle Job an die Warteschlange zurück, bevor er beendet wird.</p>
+	</div>
+
+	<div class="container3">
+		<h3>Wie bzw. woran erkennen Sie, das der Faktor umgesetzt ist?</h3>
+		<p>Man kann erkennen, ob der Faktor umgesetzt wurde, indem man prüft, ob ein zwölf Faktoren konformes System schnell und nahtlos auf Änderungen reagieren kann. Wenn Prozesse schnell gestartet und beendet werden können und das System auf unvorhergesehene, nicht ordnungsgemäß beendete Prozesse vorbereitet ist, dann wurde der Faktor erfolgreich umgesetzt. Wenn ein System z.B. bei einem Lasttest schnell auf eine erhöhte Auslastung reagieren und zusätzliche Ressourcen bereitstellen kann, ist das ein Zeichen dafür, dass der Faktor umgesetzt wurde.</p>
+	</div>
+
+
+	<div class="conainer4">
+		<t4>X. Dev/prod parity<t4>
+	</div>
+
+	<div class="container4">
+		<h4>Um was geht es bei diesem Faktor?</h4>
+		<p>Dieser Faktor (X. Dev/prod parity) beschäftigt sich damit, wie Entwickler sicherstellen können, dass ihre Entwicklungs-, Test- und Produktionsumgebungen so ähnlich wie möglich sind, um eine reibungslose und effiziente Bereitstellung der Anwendung zu ermöglichen.</p>	
+	</div>
+
+	<div class="container4">
+		<h4>Welches Problem löst dieser Faktor?</h4>
+		<p>Dieser Faktor löst das Problem der Diskrepanzen zwischen Entwicklungs-, Test- und Produktionsumgebungen, die dazu führen können, dass Anwendungen in der Produktion nicht ordnungsgemäß funktionieren. Durch die Schaffung von ähnlichen Umgebungen für Entwickler, Tester und Endbenutzer können Entwickler sicherstellen, dass ihre Anwendung unter realen Bedingungen funktioniert und unerwartete Probleme vermieden werden.</p>
+	</div>
+
+	<div class="container4">
+		<h4>Wie wird dieser Faktor in der realen Welt umgesetzt?</h4>
+		<p>In der realen Welt wird dieser Faktor dadurch umgesetzt, dass Entwicklungs-, Test- und Produktionsumgebungen so ähnlich wie möglich gestaltet werden. Dies bedeutet, dass Entwickler dieselben Tools, Stack und Infrastruktur wie in der Produktionsumgebung verwenden sollten, um sicherzustellen, dass die Anwendung unter realen Bedingungen funktioniert. Auch sollten Entwickler dieselben Backing-Services wie in der Produktionsumgebung verwenden, um mögliche Kompatibilitätsprobleme zu vermeiden.</p>
+	</div>
+
+	<div class="container4">
+		<h4>Wie bzw. woran erkennen Sie, dass der Faktor umgesetzt ist?</h4>
+		<p>Man kann erkennen, ob der Faktor umgesetzt wurde, indem man prüft, ob Entwicklungs-, Test- und Produktionsumgebungen ähnlich sind und ob dieselben Backing-Services verwendet werden. Wenn Entwickler dieselben Tools, Stack und Infrastruktur wie in der Produktionsumgebung verwenden und dieselben Backing-Services wie in der Produktionsumgebung verwenden, dann wurde der Faktor erfolgreich umgesetzt. Wenn die Anwendung unter den gleichen Bedingungen in der Entwicklungs-, Test- und Produktionsumgebung funktioniert, dann ist dies ein weiteres Zeichen dafür, dass der Faktor umgesetzt wurde.</p>
+	</div>
 </body>
 </html>
-
